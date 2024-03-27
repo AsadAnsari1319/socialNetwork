@@ -59,6 +59,7 @@ $route['post-detail'] = 'Main_Controller/postDetail';
 $route['profile'] = 'UserController/userProfile';
 $route['porfolio'] = 'UserController/porfolio';
 $route['create'] = 'UserController/createPost';
+$route['change_password'] = 'UserController/changePassword';
 
 
 // Auth Routes

@@ -15,7 +15,6 @@ class Main_Controller extends CI_Controller
 
 	function loginPage()
 	{
-
 		$this->load->view('user/login');
 	}
 
@@ -27,7 +26,7 @@ class Main_Controller extends CI_Controller
 
 	function home()
 	{
-
+		// $this->load->view('user/home');
 		$this->load->view('user/home');
 	}
 

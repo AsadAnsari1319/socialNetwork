@@ -20,4 +20,9 @@ class UserController extends CI_Controller
 	{
 		$this->load->view('user/createPost');
 	}
+
+	public function changePassword()
+	{
+		$this->load->view('user/change_password');
+	}
 }
