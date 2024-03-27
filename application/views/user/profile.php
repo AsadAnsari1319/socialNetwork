@@ -45,7 +45,7 @@
 	<section>
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-md-12 p-3 pt-0">
+				<div class="col-md-12  p-3 pt-0">
 					<div class="profile_tab">
 						<ul>
 							<li><a href="#" class="active">Created</a></li>
