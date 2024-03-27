@@ -52,8 +52,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['default_controller'] = 'Main_Controller';
 // $route['login'] = 'Main_Controller/dashboard';
-$route['user/login'] = 'Main_Controller/loginPage';
-$route['user/register'] = 'Main_Controller/Register';
+$route['login'] = 'Main_Controller/loginPage';
+$route['register'] = 'Main_Controller/Register';
+$route['home'] = 'Main_Controller/home';
+$route['post-detail'] = 'Main_Controller/postDetail';
+$route['profile'] = 'UserController/userProfile';
+$route['porfolio'] = 'UserController/porfolio';
+$route['create'] = 'UserController/createPost';
 
 
 // Auth Routes

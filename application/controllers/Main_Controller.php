@@ -10,7 +10,7 @@ class Main_Controller extends CI_Controller
 
 	public function index()
 	{
-		$this->load->view('user/home');
+		$this->load->view('user/login');
 	}
 
 	function loginPage()
@@ -23,5 +23,18 @@ class Main_Controller extends CI_Controller
 	{
 
 		$this->load->view('user/register');
+	}
+
+	function home()
+	{
+
+		$this->load->view('user/home');
+	}
+
+
+	function postDetail()
+	{
+
+		$this->load->view('user/postdetail');
 	}
 }
